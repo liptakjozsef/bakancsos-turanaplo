@@ -54,14 +54,14 @@ body {
   }
       
   .container {
-    width: 340px;    
+       
     margin: 20px auto;
     background-color: ivory;
     position: relative;
     text-align: center;
     opacity: 0.6;
     border-radius: 10%;
-    width: 100vw;
+    width: 60vw;
     height: 40vh;
     padding: 15px;
   }
@@ -81,7 +81,5 @@ body {
     float: left;
   }
   
-  #box-04 {    
-    float: right;
-  }
+  
   
