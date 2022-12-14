@@ -36,7 +36,7 @@ body {
     background: url('assets/Japán.jpg') no-repeat center center fixed;  
     background-size: cover;  
     font-weight: 800;
-    font-size: 200%;
+    font-size: 100%;
     font-family: 'Pacifico', cursive;
   }
   img {    
@@ -51,34 +51,60 @@ body {
   
   img:hover {
     transform: rotate(45deg);
+  }     
+    
+
+  .package {
+    float: right;
+    width: 29.33%;
+    margin: 1%;
+    padding: 1%;    
+    text-align: center;
   }
-      
-  .container {
-       
-    margin: 20px auto;
-    position: relative;
+  
+  .content {
+    font-size: 2rem;      
     text-align: center;
     opacity: 0.6;
     border-radius: 10%;
     width: 100vw;
-    height: 80vh;
-    padding: 15px;
+    height: 50vh;
+    padding: 10px;    
+    clear: both;
+    margin: 75px;
   }
   
-  
-  
+@media (min-width: 768px) {
 
-  #box-01 {    
-    float: left;
-  }
-  
-  #box-02 {    
-    float: right;
-  }
-  
-  #box-03 {    
-    float: left;
-  }
-  
+}
+@media (min-width: 768px) {
+
+	.main-header {
+			position: fixed;
+			top: 0;
+			height: 100%;
+			width: 33.3%;
+		}
+}
+/* Primary Content Wrapper Styles */
+
+@media (min-width: 768px) {
+
+	.primary-content {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+
+}
+@media (min-width: 1025px) {
+
+	.primary-content {
+		float: none;
+		position: absolute;
+        left: 20.625%;
+	}
+
+}
   
   
